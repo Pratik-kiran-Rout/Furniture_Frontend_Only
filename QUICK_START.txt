@@ -1,0 +1,105 @@
+========================================
+PREMIUM FURNITURE - FRONTEND ONLY
+Quick Start Guide
+========================================
+
+STEP 1: Open Terminal/Command Prompt
+-------------------------------------
+Navigate to this folder:
+cd d:\CORDING\Furniture_Premium\Furniture_Frontend_Only
+
+
+STEP 2: Install Dependencies (FIRST TIME ONLY)
+-------------------------------------
+npm install --legacy-peer-deps
+
+Wait for installation to complete (2-3 minutes)
+
+
+STEP 3: Start Development Server
+-------------------------------------
+npm start
+
+OR double-click: start.bat
+
+
+STEP 4: Open Browser
+-------------------------------------
+Automatically opens at: http://localhost:3000
+
+If not, manually open: http://localhost:3000
+
+
+========================================
+THAT'S IT! Your website is now running!
+========================================
+
+WHAT TO DO NEXT:
+- Browse products on homepage
+- Click "Explore Collections"
+- Add products to wishlist (heart icon)
+- View product details
+- Submit a quote request
+- Try all features!
+
+ALL DATA IS SAVED IN YOUR BROWSER (localStorage)
+
+========================================
+TROUBLESHOOTING:
+========================================
+
+Problem: npm install fails
+Solution:
+  del package-lock.json
+  rmdir /s /q node_modules
+  npm install --legacy-peer-deps
+
+Problem: Port 3000 already in use
+Solution:
+  netstat -ano | findstr :3000
+  taskkill /PID <PID> /F
+
+Problem: Website not loading
+Solution:
+  - Check if npm start is running
+  - Try http://localhost:3000
+  - Clear browser cache
+  - Try incognito mode
+
+========================================
+DOCUMENTATION:
+========================================
+
+README.md          - Quick reference
+SETUP.md           - Detailed setup guide
+FEATURES.md        - All features explained
+PROJECT_INFO.md    - Architecture & overview
+WHAT_WAS_CREATED.md - What's included
+
+========================================
+DEPLOYMENT:
+========================================
+
+To deploy to production:
+
+1. Build the project:
+   npm run build
+
+2. Deploy 'build' folder to:
+   - Vercel (recommended)
+   - Netlify
+   - GitHub Pages
+   - Any static hosting
+
+========================================
+SUPPORT:
+========================================
+
+Check documentation files for help
+All features are working and tested!
+
+Developer: debiprasadpanda73@gmail.com
+Version: 1.0.0
+Status: Production Ready ✓
+
+========================================
