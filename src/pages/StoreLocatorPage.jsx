@@ -55,7 +55,7 @@ const StoreLocatorPage = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Labanya Furnitures Location"
+                title="Premium Furniture Location"
               ></iframe>
             </div>
             
@@ -74,7 +74,7 @@ const StoreLocatorPage = () => {
           <div className="order-1 lg:order-2">
             <div className="bg-white border border-gray-200 rounded-lg p-8">
               <h2 className="text-3xl mb-8" style={{ fontFamily: 'Playfair Display, serif' }}>
-                Labanya Furnitures Showroom
+                Premium Furniture Showroom
               </h2>
 
               <div className="space-y-8">
